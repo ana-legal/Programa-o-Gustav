@@ -1,0 +1,89 @@
+body{
+    background:#f5f0ea;
+    color:#250c0c;
+}
+
+header{
+    background:#5c3d2e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#9b805d;
+}
+
+.banner{
+    text-align:center;
+    padding:120px 50px;
+    background:linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.botao{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#c5ab89;
+    color:black; 
+}
+
+section{
+    text-align:center;
+}
+
+section img{
+    width:350px;
+    max-width:100%;
+    border-radius:20px;
+    margin-top:20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:90%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card p{
+    padding:10px;
+}
+
+footer{
+    background:#5c3d2e;
+    color:white;
+    text-align:center;
+}
