@@ -10,19 +10,11 @@ header{
     padding:20px;
 }
 
-nav{
-    margin-top:20px;
-}
-
 nav a{
     color:white;
     text-decoration:none;
     margin:0 20px;
     font-weight:bold;
-}
-
-nav a:hover{
-    color:#9b805d;
 }
 
 .banner{
@@ -41,7 +33,7 @@ nav a:hover{
 .botao{
     margin-top:20px;
     padding:12px 25px;
-    background:#c5ab89;
+    background:#b99e7a;
     color:black; 
 }
 
@@ -68,22 +60,9 @@ section img{
     border-radius:20px;
     box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
-.card:hover{
-    transform:scale(1.05);
-}
 
 .card img{
     width:90%;
     height:200px;
     object-fit:cover;
-}
-
-.card p{
-    padding:10px;
-}
-
-footer{
-    background:#5c3d2e;
-    color:white;
-    text-align:center;
 }
