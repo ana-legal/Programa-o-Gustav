@@ -2,159 +2,97 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitLife Academy</title>
-
-    <link rel="stylesheet" href="grid.css">
+    <title>Imperial Fit</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<header>
+    <h1>Imperial Fit</h1>
 
-    <header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#planos">Planos</a>
+        <a href="#modalidades">Modalidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
 
-        <h1>🏋️ FitLife Academy</h1>
+<main>
 
-        <p>
-            Alcance seus objetivos com treinos personalizados e profissionais qualificados.
-        </p>
+<section id="inicio" class="banner">
+    <h2>Seu momento de superar limites é agora.</h2>
+    <a href="#planos" class="botao">Ver Planos</a>
+</section>
 
-    </header>
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Um espaço completo e motivador para você alcançar seus objetivos de saúde e bem-estar.</p>
 
-    <aside class="menu">
+    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48" alt="Academia">
+</section>
 
-        <h2>Menu</h2>
+<section id="planos">
+    <h2>Nossos Planos</h2>
 
-        <ul>
+    <div class="cards">
 
-            <li><a class="ativo" href="#">🏠 Home</a></li>
-
-            <li><a href="#">💪 Planos</a></li>
-
-            <li><a href="#">📅 Treinos</a></li>
-
-            <li><a href="#">👨‍🏫 Professores</a></li>
-
-            <li><a href="#">📞 Contato</a></li>
-
-        </ul>
-
-    </aside>
-
-    <main>
-
-        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200"
-        class="banner" alt="Academia">
-
-        <h2>Transforme seu estilo de vida</h2>
-
-        <p>
-
-            A FitLife Academy oferece um ambiente moderno, equipamentos de última geração
-            e profissionais especializados para ajudar você a conquistar seus objetivos.
-            Aqui você encontra musculação, treinamento funcional, aulas em grupo,
-            acompanhamento físico e muito mais.
-
-        </p>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>🏋️ Equipamentos Modernos</h3>
-
-                <p>
-                    Treine com aparelhos de alta qualidade e tecnologia.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>👨‍🏫 Personal Trainer</h3>
-
-                <p>
-                    Conte com acompanhamento individual durante seus treinos.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>🥗 Avaliação Física</h3>
-
-                <p>
-                    Receba um plano personalizado para atingir seus resultados.
-                </p>
-
-            </div>
-
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48" alt="Plano Mensal">
+            <h3>Plano Mensal</h3>
+            <p>R$ 110,00 / mês</p>
         </div>
 
-    </main>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd" alt="Plano Trimestral">
+            <h3>Plano Trimestral</h3>
+            <p>R$ 95,00 / mês</p>
+        </div>
 
-    <section class="anuncios">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e" alt="Plano Anual">
+            <h3>Plano Anual</h3>
+            <p>R$ 80,00 / mês</p>
+        </div>
 
-        <a href="#" class="promo">
-            🔥 Promoção do Mês
-        </a>
+    </div>
+</section>
 
-        <a href="#" class="planos">
-            💪 Plano Premium
-        </a>
+<section id="modalidades">
+    <h2>Modalidades</h2>
 
-        <a href="#" class="avaliacao">
-            📋 Avaliação Física
-        </a>
+    <div class="cards">
 
-    </section>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f" alt="Musculação">
+            <h3>Musculação</h3>
+            <p>Aparelhos modernos e pesos livres.</p>
+        </div>
 
-    <section class="formulario">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a" alt="Aeróbico">
+            <h3>Aulas Aeróbicas</h3>
+            <p>Spinning, Dança e Circuito Funcional.</p>
+        </div>
 
-        <h2>Faça sua matrícula</h2>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" alt="Personal Trainer">
+            <h3>Personal Trainer</h3>
+            <p>Acompanhamento focado nos seus objetivos.</p>
+        </div>
 
-        <form>
+    </div>
+</section>
 
-            <label>Nome</label>
-            <input type="text" placeholder="Digite seu nome">
+<section id="contato">
+    <h2>Contato</h2>
 
-            <label>E-mail</label>
-            <input type="email" placeholder="Digite seu e-mail">
+    <p>Av. das Missões, 1109</p>
+    <p>(46) 99975-0711</p>
 
-            <label>Telefone</label>
-            <input type="tel" placeholder="(00) 00000-0000">
+</section>
 
-            <button>
-                Quero fazer parte
-            </button>
-
-        </form>
-
-    </section>
-
-    <section class="galeria">
-
-        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800" alt="Academia">
-
-        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800" alt="Treino">
-
-        <img src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=800" alt="Musculação">
-
-        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800" alt="Personal">
-
-        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07f?w=800" alt="Fitness">
-
-        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800" alt="Treino funcional">
-
-    </section>
-
-    <footer>
-
-        © 2026 FitLife Academy | Projeto desenvolvido pelos alunos do SESI
-
-    </footer>
-
-</div>
-
+</main>
 </body>
 </html>
